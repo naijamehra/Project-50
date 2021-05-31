@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(53, 51, 51);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 400;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+body{
+    background-color: whitesmoke;
+}
+
+.bodyimg{
+    font-family: fantasy;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310px;
+    font-family: fantasy;
+
+    justify-content: space-evenly;
+}
